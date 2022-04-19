@@ -16,7 +16,7 @@ public static class SeedData
             new PizzaSpecial()
             {
                 Id = 2,
-                Name = "The Baconatorizor",
+                Name = "The Bacon-izer",
                 Description = "It has EVERY kind of bacon!",
                 BasePrice = 12.99m,
                 ImageUrl = "img/pizzas/bacon.jpg",
@@ -33,7 +33,7 @@ public static class SeedData
             {
                 Id = 4,
                 Name = "Buffalo chicken",
-                Description = "Blazing spicy chicken, hot sauce and bleu cheese, guaranteed to warm you up!",
+                Description = "Blazing spicy chicken, hot sauce and bleu cheese. Guaranteed to warm you up!",
                 BasePrice = 12.75m,
                 ImageUrl = "img/pizzas/meaty.jpg",
             },
