@@ -43,7 +43,7 @@
             var statusText = await objectRef.invokeMethodAsync('GetOrderStatus');
             document.querySelector('#orderStatus').innerText = statusText;
             if (statusText != "Delivered") {
-                setTimeout(function () { refreshOrderStatus(); }, 2000);
+                setTimeout(function () { refreshOrderStatus(); }, 200);
             } else {
                 document.querySelector('#progressSpinner').remove();
             }
